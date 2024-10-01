@@ -9,4 +9,5 @@ The Scientists Dataset that we will be using for this project is created with th
 Every tuple of the final CSV file will have this format: (**Surname**:String, **#Awards**:Integer, **Education**:text-vector, **#DBLP_Record**). The 3 features **Surname**, **#Awards** and **#DBLP_Record** will be used for the indexing that will be performed by the Multidimensional Structures. Also, we will implement **Locality Sensitive Hashing (LSH)** on the text vectors of the feature **Education** in order to find common semantic content between the different scientists. 
 
 ## Goals
-Our goal is to build the following Multidimensional Data Structures: **kd-Tree**, **Quad-Tree**, **R-Tree** and **Range Tree** and implement them on the initial Dataset in order to answer to spatial range, interval or similarity queries.
+Our goal is to build the following Multidimensional Data Structures: **kd-Tree**, **Quad-Tree**, **R-Tree** and **Range Tree** and implement them on the initial Dataset in order to answer to spatial range, interval or similarity queries. For each query the user must enter:
+1. the range (A-Z) of the first letter of the scientists **Surname**  
