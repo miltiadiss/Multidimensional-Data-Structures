@@ -1,5 +1,3 @@
-![Στιγμιότυπο οθόνης 2024-09-08 194529](https://github.com/user-attachments/assets/bc6eed92-0511-4625-8c9e-7cab1ad37896)
-
 # Overview
 This project is part of **Multidimensional Data Strucrures & Computational Geometry** elective course in Computer Engineering & Informatics Department of University of Patras for Winter Semester 2023-2024 (Semester 7).
 
@@ -14,6 +12,9 @@ Our goal is to build the following Multidimensional Data Structures: **kd-Tree**
 2. the minimum threshold of the **#Awards** of the scientists
 3. the range of the **#DBLP_Record** of the scientists.
 
-Then, we will use the **LSH** method in order to filter the results returned by the trees and keep only those scientists that share common **Education** in a percentage more than a user defined threshold.
+Then, we will use the **LSH** method in order to filter the results returned by the trees and keep only those scientists that share common **Education** in a percentage greater than a user defined threshold.
 
 Finally, we will compare the average case complexity and speed of the 4 structures in order to find which one is the most efficient.
+
+![Στιγμιότυπο οθόνης 2024-10-01 165405](https://github.com/user-attachments/assets/ce8d2f0e-a551-4d02-9f9f-e76e6e3411f3)
+
