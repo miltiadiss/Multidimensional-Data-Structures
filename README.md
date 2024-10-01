@@ -12,7 +12,7 @@ Our goal is to build the following Multidimensional Data Structures: **kd-Tree**
 2. the minimum threshold of the **#Awards** of the scientists
 3. the range of the **#DBLP_Record** of the scientists.
 
-Then, we will use the **LSH** method in order to filter the results returned by the trees and keep only those scientists that share common **Education** in a percentage greater than a user defined threshold.
+Then, we will use the **LSH** method in order to filter the results returned by the trees and keep only those scientists that share common **Education** in a percentage greater than a user defined threshold. For the **LSH** we will split the text vectors into shingles of size **k=3** and the shingle signatures will be placed in buckets of **12 rows** and **15 bands**. The similarity can be calculated using the **Jaccard Coefficient**.
 
 Finally, we will compare the average case complexity and speed of the 4 structures in order to find which one is the most efficient.
 
