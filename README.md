@@ -18,3 +18,7 @@ Finally, we will compare the average case complexity and speed of the 4 structur
 
 ![Στιγμιότυπο οθόνης 2024-10-01 165405](https://github.com/user-attachments/assets/ce8d2f0e-a551-4d02-9f9f-e76e6e3411f3)
 
+Further information about the whole implementation can be found in the technical report at the **Documentation** folder. Also, the code for the different structures can be found in the **Trees** folder.
+
+## Programming Tools & Environment
+Python, PyCharm Community Edition 2024.1.1
