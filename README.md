@@ -10,4 +10,10 @@ Every tuple of the final CSV file will have this format: (**Surname**:String, **
 
 ## Goals
 Our goal is to build the following Multidimensional Data Structures: **kd-Tree**, **Quad-Tree**, **R-Tree** and **Range Tree** and implement them on the initial Dataset in order to answer to spatial range, interval or similarity queries. For each query the user must enter:
-1. the range (A-Z) of the first letter of the scientists **Surname**  
+1. the range (A-Z) of the first letter of the scientists **Surname**
+2. the minimum threshold of the **#Awards** of the scientists
+3. the range of the **#DBLP_Record** of the scientists.
+
+Then, we will use the **LSH** method in order to filter the results returned by the trees and keep only those scientists that share common **Education** in a percentage more than a user defined threshold.
+
+Finally, we will compare the average case complexity and speed of the 4 structures in order to find which one is the most efficient.
