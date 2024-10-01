@@ -2,7 +2,7 @@
 This project is part of **Multidimensional Data Strucrures & Computational Geometry** elective course in Computer Engineering & Informatics Department of University of Patras for Winter Semester 2023-2024 (Semester 7).
 
 ## Dataset
-The Scientists Dataset that we will be using for this project is created with the aid of a web crawler that scans data form this link: https://en.wikipedia.org/wiki/List_of_computer_scientists and creates a CSV file.
+The Scientists Dataset that we will be using for this project is created with the aid of a web crawler that extracts data form this link: https://en.wikipedia.org/wiki/List_of_computer_scientists and creates a CSV file.
 
 Every tuple of the final CSV file will have this format: (**Surname**:String, **#Awards**:Integer, **Education**:text-vector, **#DBLP_Record**). The 3 features **Surname**, **#Awards** and **#DBLP_Record** will be used for the indexing that will be performed by the Multidimensional Structures. Also, we will implement **Locality Sensitive Hashing (LSH)** on the text vectors of the feature **Education** in order to find common semantic content between the different scientists. 
 
