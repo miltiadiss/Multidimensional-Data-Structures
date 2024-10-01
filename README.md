@@ -5,4 +5,5 @@ This project is part of **Multidimensional Data Strucrures & Computational Geome
 
 ## Description
 We created an initial dataset using a web crawler.
+[![https://en.wikipedia.org/wiki/List_of_computer_scientists]]
 We will be using **kd-Trees**, **Quad-Trees**, **R-Trees** and **Range Trees** in order to answer to spatial range queries.
