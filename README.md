@@ -4,7 +4,7 @@
 This project is part of **Multidimensional Data Strucrures & Computational Geometry** elective course in Computer Engineering & Informatics Department of University of Patras for Winter Semester 2023-2024 (Semester 7).
 
 ## Dataset
-The initial dataset that we will be using is created with the aid of a web crawler that reads data form this link: ![https://en.wikipedia.org/wiki/List_of_computer_scientists]
+The initial dataset that we will be using is created with the aid of a web crawler that reads data form this link: https://en.wikipedia.org/wiki/List_of_computer_scientists
 
 ## Goals
 We will be using **kd-Trees**, **Quad-Trees**, **R-Trees** and **Range Trees** in order to answer to spatial range queries.
